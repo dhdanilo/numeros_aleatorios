@@ -15,8 +15,8 @@ def gerar_multiplos_jogos(quantidade):
         jogos.append(gerar_jogo())
     return jogos
 
-# Gerar 6 jogos
-jogos_gerados = gerar_multiplos_jogos(6)
+# Gerar [6] 3 jogos
+jogos_gerados = gerar_multiplos_jogos(3)
 
 # Exibir os jogos
 print("JOGOS GERADOS PARA A MEGA-SENA:")
